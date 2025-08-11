@@ -11,7 +11,7 @@ const PokemonDetails = ({ pokemonName }) => {
       {/* Show heading only if NOT searching */}
       {pokemonName === undefined && (
         <h1 id="pokedex-heading">
-          <Link to="/">Pokemon</Link>
+          <Link to="/">Pokedex Kaif</Link>
         </h1>
       )}
 
