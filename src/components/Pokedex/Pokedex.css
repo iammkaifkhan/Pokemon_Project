@@ -1,6 +1,34 @@
-.pokedex-wrapper{
-    display: flex;
-    flex-direction: column;
-    
+.pokedex-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Tablet view adjustments */
+@media (max-width: 1024px) {
+  .pokedex-wrapper {
+    padding: 0.75rem;
+  }
+}
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+  .pokedex-wrapper {
+    padding: 0.5rem;
+  }
+  
+  /* Example: center content for mobile */
+  .pokedex-wrapper > * {
+    max-width: 100%;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  .pokedex-wrapper {
+    padding: 0.25rem;
+  }
 }
 

@@ -1,10 +1,14 @@
-.search-wrapper{
-margin: 0 auto;
+.search-wrapper {
+    display: flex;
+    justify-content: center; /* ✅ center horizontally */
 }
 
-#pokemon-name-search{
+#pokemon-name-search {
     margin-top: 2rem;
-    width: 600px;
-    padding: 1.5rem;
+    width: 500px; /* ✅ smaller than 600px */
+    max-width: 90%; /* ✅ still responsive for small screens */
+    padding: 1.2rem;
+    box-sizing: border-box;
 }
+
  
