@@ -11,7 +11,7 @@ const Pokemon = () => {
   return (
     <div className="pokedex-wrapper">
       <h1 id="pokedex-heading">
-        <Link to="/">Pokemon</Link>
+        <Link to="/">Pokedex Kaif</Link>
       </h1>
 
       <Search updateSearchTerm={setSearchTerm} />
